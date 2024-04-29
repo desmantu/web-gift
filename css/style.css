@@ -1,0 +1,227 @@
+:root{
+    --body-color:#6494f7;
+    --main-color: #0b2432,
+    --sidebar-color:#fff;
+    --primary-color:#695cfe;
+    --primary-color-light:#f6f5ff;
+    --toggle-color:#ddd;
+    --text-color:#707070;
+  
+    /* transition */
+    --tran-02: all 0.2s ease ;
+    --tran-03: all 0.3s ease ;
+    --tran-04: all 0.4s ease ;
+    --tran-05: all 0.5s ease ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b61414;
+    overflow: hidden ;
+}
+
+p{
+    font-family: 'poppins';
+    font-size: 8px;
+}
+
+h3{
+    color: white;
+    position: relative;
+    font-family: 'poppins';
+    font-weight: bold;
+}
+
+
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+     position: fixed;
+    background-color: aqua ;
+    left: 40%;
+    top: 50px;
+}
+
+#text.active{
+    display: none;
+}
+
+
+.index .penutup img{
+    margin: -90px -30px;
+}
+
+#img-1.animate__fadeOut{
+    display: none;
+}
+
+#img-2.animate__fadeOut{
+    display: none;
+
+}
+
+#img-3.animate__fadeOut{
+    display: none;
+
+}
+
+#img-4.animate__fadeOut{
+
+}
+
+#img-5.animate__fadeOut{
+
+}
+
+
+
+
+    #open{
+        background-color: #ccc;
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+#open.active{
+ background-color: black;
+}
+
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0px;
+    }
+
+
+
+
+.container-index{
+}
+.container-index >.content{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
+.container-19Feb .content{
+    width: 100%;
+    padding: 0px 70px;
+
+}
+.container-19Feb>.content>.kolom{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container-19Feb>.content>.kolom>img{
+    width: 150px;
+}
+
+
+/* 22 feb */
+.container-22Feb {
+}
+.container-22Feb .content{
+    padding: 0px 70px;
+
+}
+.container-22Feb>.content>.kolom {
+    display: flex;
+    align-items: center;
+}
+.container-22Feb .content .kolom > img {
+    width: 120px;
+}
+
+
+
+.container-26Feb{
+    display: flex;
+    justify-content: center;
+}
+.container-26Feb>.content{
+    display: flex;
+    padding: 0px 70px;
+
+}
+.container-26Feb>.content>.kolom{
+    display: flex;
+    align-items: center;
+}
+.container-26Feb>.content>.kolom > img {
+    width: 125px;
+}
+
+
+
+
+.container-29Feb{
+
+}
+.container-29Feb>.content{
+    padding: 0px 70px;
+
+}
+.container-29Feb>.content>.kolom{
+    display: flex;
+    align-items: center;
+}
+.container-29Feb>.content>.kolom > img {
+    width: 150px;
+}
+
+
+
+
+.container-bubble .content{
+    padding: 0px 70px;
+
+}
+.container-bubble .content>img {
+    width: 60px;
+    position: relative;
+    left: 35%;
+}
+.container-bubble .kolom>.iqbal{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.container-bubble .kolom>.tasya{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.iqbal>img,
+.tasya>img {
+    width: 180px;
+    margin: 10px 0px;
+}
+
+#org {
+    width: 120px;
+}
