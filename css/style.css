@@ -23,8 +23,7 @@
 }
 
 body {
-    background-color: #b61414;
-    overflow: hidden ;
+    background-color: #fefefe;
 }
 
 p{
@@ -32,14 +31,18 @@ p{
     font-size: 8px;
 }
 
+h1{
+    font-family: 'poppins';
+}
+
 h3{
-    color: white;
+    color: rgb(255, 0, 0);
     position: relative;
     font-family: 'poppins';
     font-weight: bold;
 }
 
-
+img
 
 .index {
     display: flex;
@@ -53,12 +56,11 @@ h3{
     justify-content: center;
      flex-direction: column;
      position: fixed;
-    background-color: aqua ;
-    left: 40%;
-    top: 50px;
+    background-color: #fefefe ;
+
 }
 
-#text.active{
+#text.animet_fadeOut{
     display: none;
 }
 
@@ -82,11 +84,11 @@ h3{
 }
 
 #img-4.animate__fadeOut{
-
+    display: none;
 }
 
 #img-5.animate__fadeOut{
-
+    display: none;
 }
 
 
@@ -111,15 +113,23 @@ h3{
         margin: 100px 0px;
     }
 
+    .container {
+        bottom: 200px;
+        color: black;
+    }
 
 
 
 .container-index{
+    padding: 30px;
+}
+.container-index >.content>h1{
+    font-family: 'poppins';
 }
 .container-index >.content{
     display: flex;
     justify-content: center;
-    color: white;
+    color:black;
 }
 
 
@@ -224,4 +234,18 @@ h3{
 
 #org {
     width: 120px;
+}
+
+
+.container-07-Maret{
+    padding: 100px;
+}
+.container-07-Maret .content {
+    background-color: #cecccc;
+
+}
+.container-07-Maret .content .kolom {
+}
+.container-07-Maret .content .kolom img {
+    width: 180px;
 }
